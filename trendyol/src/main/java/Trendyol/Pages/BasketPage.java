@@ -14,7 +14,7 @@ public class BasketPage extends BasePage {
     /////////////// METHODS ///////////////
     public BasketPage productNameInTheBasket(){
         String productNameInTheBasket = getText(ConstantsBasketPage.productNameInTheBasket);
-        System.out.print("Sepetteki Ürünün Adı : "+productNameInTheBasket);
+        System.out.println("Sepetteki Ürünün Adı : "+productNameInTheBasket);
         return this;
     }
 
