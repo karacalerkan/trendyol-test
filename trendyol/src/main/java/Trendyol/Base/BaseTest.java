@@ -27,7 +27,7 @@ public class BaseTest {
         driver =new ChromeDriver(options);
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.navigate().to("https://www.trendyol.com/");
     }
 
